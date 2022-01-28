@@ -153,15 +153,14 @@ ul li {
 .locations {
   display: flex;
   position: relative;
+  justify-content: center;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
   width: 1200px;
 }
 #location {
-  line-height: 40px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 40px;
   margin-bottom: 200px;
   opacity: 1;
   width: 300px;
