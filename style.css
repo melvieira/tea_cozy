@@ -1,0 +1,168 @@
+* {
+  font-family: Helvetica;
+}
+@font-face {
+  font-family: "Meow Script";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/meowscript/v3/0FlQVPqanlaJrtr8AnJ0ERcm2fwgfyf0.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+body {
+  background-color: black;
+  color: gray;
+}
+figcaption {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 10px;
+}
+h2 {
+  font-size: 35px;
+  padding: 0px;
+}
+h3,
+h4 {
+  font-size: 25px;
+}
+h2,
+h4 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+h3 {
+  font-size: 25px;
+}
+h5 {
+  font-size: 20px;
+}
+img {
+  height: 200px;
+  width: 300px;
+}
+footer {
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  line-height: 40px;
+}
+section {
+  background-color: black;
+}
+ul li {
+  display: inline-flex;
+  list-style-type: none;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 3;
+}
+
+.banner ul li {
+  display: inline;
+  font-size: 25px;
+  justify-content: center;
+  list-style-type: none;
+  text-decoration: underline;
+  padding: 0px 5px;
+  height: 69px;
+}
+.background_image {
+  opacity: 0.4;
+  height: 700px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  display: flex;
+  position: absolute;
+}
+#copyright {
+  text-align: left;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+.locations_image {
+  opacity: 0.4;
+  height: 500px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  display: flex;
+  position: absolute;
+}
+
+.tea_of_month {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+#header {
+  font-family: "Meow Script";
+  font-size: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer_teacozy {
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 40px;
+}
+.mission {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  display: flex;
+  position: relative;
+}
+
+#mission {
+  background-color: black;
+  box-sizing: border-box;
+  margin-top: 200px;
+  margin-bottom: 350px;
+  padding: 0px;
+  opacity: 1;
+  width: 1200px;
+}
+
+.locations {
+  display: flex;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 1200px;
+}
+#location {
+  line-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+  opacity: 1;
+  width: 300px;
+}
